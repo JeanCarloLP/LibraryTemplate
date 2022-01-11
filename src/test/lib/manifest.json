@@ -1,0 +1,53 @@
+{
+    "_version": "1.0.0",
+    "sap.app": {
+        "version": "1.0.0",
+        "id": "sap.ui.library.template",
+        "type": "library",
+        "embed": [],
+        "i18n": "messagebundle.properties",
+        "applicationVersion": {
+            "version": "${version}"
+        },
+        "title": "{{title}}",
+        "description": "{{description}}",
+        "ach": "",
+        "resources": "",
+        "offline": false
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": ["sap_hcb", "sap_belize", "sap_belize_plus", "sap_bluecrystal"]
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.60",
+            "libs": {
+                "sap.ui.core": {
+                    "minUI5Version": "1.60"
+                },
+                "sap.ui.commons": {
+                    "minUI5Version": "1.60"
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": false
+        }
+    },
+    "sap.platform.hcp": {
+        "_version": "1.0.0",
+        "uri": ""
+    },
+    "sap.fiori": {
+        "_version": "1.0.0",
+        "registrationIds": [],
+        "archeType": "reusecomponent"
+    }
+}
