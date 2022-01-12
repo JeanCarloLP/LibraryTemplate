@@ -24,18 +24,19 @@
     "devDependencies": {
         "@ui5/cli": "^2.6.6", 
         "eslint": "^6.7.2",
-        "ui5-middleware-simpleproxy": "*",
-        "ui5-middleware-servestatic": "^0.3.3",
         "ui5-middleware-livereload": "^0.4.3",
-        "eslint-config-rpanneel": "^0.0.1"
+        "ui5-middleware-proxy-basicauth": "^0.0.6",
+        "ui5-middleware-servestatic": "^0.3.3",
+        "ui5-middleware-simpleproxy": "*",
+        "ui5-task-nwabap-deployer": "^1.0.15"
     },
     "ui5": {
         "dependencies": [
+            "ui5-middleware-servestatic",
             "ui5-middleware-livereload",
             "ui5-middleware-proxy-basicauth",
-            "ui5-middleware-servestatic",
-            "ui5-middleware-simpleproxy",
-            "ui5-task-nwabap-deployer"
+            "ui5-task-nwabap-deployer",
+            "ui5-middleware-simpleproxy"
         ]
     }
 }
