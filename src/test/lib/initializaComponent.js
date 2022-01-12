@@ -7,7 +7,7 @@ sap.ui.define([
     return {
         init: function( component ) {
             let i18nModel = new ResourceModel({
-                bundle: sap.ui.getCore().getLibraryResourceBundle("sap.ui.library.template")
+                bundle: sap.ui.getCore().getLibraryResourceBundle("test.lib")
             });
             component.setModel( i18nModel, "i18n-reuse" )
         }
