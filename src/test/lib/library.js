@@ -4,7 +4,7 @@ sap.ui.define([
 ], function( JQuery ) {
     'use strict';
     sap.ui.getCore().initLibrary({
-        name: "sap.ui.library.template",
+        name: "test.lib",
         version: "1.0.0",
         dependencies: ["sap.ui.core"],
         types: [],
